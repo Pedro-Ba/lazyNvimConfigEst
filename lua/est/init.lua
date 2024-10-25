@@ -6,3 +6,5 @@ require("est.terminal")
 vim.diagnostic.config({
     signs = false,
 })
+
+vim.o.shell = "pwsh.exe"
