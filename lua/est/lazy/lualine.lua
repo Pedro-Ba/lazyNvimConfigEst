@@ -4,7 +4,7 @@ return {
         require("lualine").setup({
             options = {
                 icons_enabled = false,
-                theme = 'catppuccin',
+ --               theme = 'catppuccin',
                 ignore_focus = {},
                 always_divide_middle = true,
                 globalstatus = true,
