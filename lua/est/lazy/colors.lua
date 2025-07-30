@@ -1,13 +1,12 @@
 return {
-    "catppuccin/nvim",
-    name = "catppuccin",
+    "rebelot/kanagawa.nvim",
+    name = "kanagawa",
     lazy = false,
     priority = 1000,
     dependencies = {
-        { "rose-pine/neovim", name = "rose-pine" },
         "AlexvZyl/nordic.nvim",
+--      "catppuccin/nvim",
  --       "scottmckendry/cyberdream.nvim",
-        "rebelot/kanagawa.nvim",
         "folke/tokyonight.nvim"
     },
     config = function()
